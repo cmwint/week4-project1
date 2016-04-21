@@ -49,7 +49,13 @@ $(document).ready(function(){
 		alert('Why did you do that?!');
 	});
 	// Question #10
-	$('.swatch').on('click', function(){
-		
+	$('.wood').on('click', function(){
+		$('body').addClass('wood');
+	});
+	$('.black').on('click', function(){
+		$('body').addClass('black');
+	});
+	$('.chaos').on('click', function(){
+		$('body').addClass('chaos');
 	});
 });
